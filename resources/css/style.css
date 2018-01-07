@@ -161,20 +161,11 @@ footer .btn {
 
 /*Media Queries*/
 
-/*Desktop*/
-@media only screen and (min-width: 992px) {
-	
-}
-
 /*Tablet 950px*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-	/*Header*/
-
-	.logo-hide {
-		visibility: hidden;
-	}
 	/*Jumbotron*/
+
 	.jumbotron h1 {
 		font-size: 5.2rem;
 	}
@@ -187,6 +178,12 @@ footer .btn {
 
 	.logo-hide {
 		visibility: hidden;
+	}
+	nav ul li {
+    display: block;
+	}
+	nav ul li:nth-child(1n+2) {
+		padding-top: 10px;
 	}
 
 	/*Jumboron*/
