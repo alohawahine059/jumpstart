@@ -20,7 +20,6 @@ $(document).ready(function(){
 		// if statement is true, create variable
 		if (scrollTop > (pageScroll + 50)) {
 			var navHeight = $('.nav').height();
-			// console.log(navHeight);
 			$('.nav').animate({
 				top: -navHeight}, 150);
 			pageScroll = scrollTop;
